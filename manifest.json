@@ -1,0 +1,32 @@
+{
+  "name": "MeetHire - Campus Hiring Platform",
+  "short_name": "MeetHire",
+  "description": "India's #1 verified campus hiring platform connecting colleges and companies",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1a1a1a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/images/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["business", "productivity", "education"],
+  "screenshots": [
+    {
+      "src": "/images/hero-illustration.svg",
+      "sizes": "1200x630",
+      "type": "image/svg+xml",
+      "label": "MeetHire Platform Overview"
+    }
+  ]
+}

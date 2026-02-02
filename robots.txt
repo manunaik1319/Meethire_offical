@@ -1,0 +1,42 @@
+# MeetHire - Campus Hiring Platform
+# https://meethire.in
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /private/
+
+# Crawl-delay for polite crawling
+Crawl-delay: 0
+
+# Sitemaps
+Sitemap: https://meethire.in/sitemap.xml
+Sitemap: https://meethire.in/sitemap-pages.xml
+Sitemap: https://meethire.in/sitemap-images.xml
+
+# Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-Image
+Allow: /images/
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+# Yandex
+User-agent: Yandex
+Allow: /
+Crawl-delay: 0
+
+# Block bad bots
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
